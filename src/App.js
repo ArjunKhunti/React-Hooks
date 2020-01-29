@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
-import HooksCounterFour from './components/hooks-array/HooksCounterFour';
+import HookMouse from './components/run-effect-once/HookMouse';
 function App() {
   return (
     <div className="App">
       {/* <HooksCounter></HooksCounter> */}
       {/* <HooksCounterTwo></HooksCounterTwo> */}
       {/* <HooksCounterThree/> */}
-      <HooksCounterFour />
+      {/* <HooksCounterFour /> */}
+      {/* <HooksUseEffectCounter/> */}
+      <HookMouse />
     </div>
   );
 }
