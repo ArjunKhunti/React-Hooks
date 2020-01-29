@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import HookMouse from './components/run-effect-once/HookMouse';
+import MouseContainer from './components/hooks-cleanup/MouseContainer';
 function App() {
   return (
     <div className="App">
@@ -9,7 +9,8 @@ function App() {
       {/* <HooksCounterThree/> */}
       {/* <HooksCounterFour /> */}
       {/* <HooksUseEffectCounter/> */}
-      <HookMouse />
+      {/* <HookMouse /> */}
+      <MouseContainer />
     </div>
   );
 }
