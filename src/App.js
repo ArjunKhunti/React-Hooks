@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import IntervalHookCounter from './components/timer/IntervalHookCounter';
+import DataFetching from './components/hooks-data-fetch/DataFetching';
 function App() {
   return (
     <div className="App">
@@ -11,7 +11,8 @@ function App() {
       {/* <HooksUseEffectCounter/> */}
       {/* <HookMouse /> */}
       {/* <MouseContainer /> */}
-      <IntervalHookCounter />
+      {/* <IntervalHookCounter /> */}
+      <DataFetching />
     </div>
   );
 }
